@@ -1,0 +1,18 @@
+Agar Student class ka priority queue banana ho toh
+
+Now min heap mei top is vector ka last element
+so a,b sahi order agar a>b so uss hisab se likh
+
+class comp{
+public:
+    bool operator()(const Student &s1,const Student &s2){
+        s1 s2 sahi order mei toh return true else false
+
+        Let hum uss Student ko badha bol jiska marks more
+        return s1.marks<s2.marks  as then sahi order mei
+        
+        yeh max heap hoga as badhe ko peeche rakh
+    }
+};
+
+priority_queue<Student,vector<Student>,comp> pq;

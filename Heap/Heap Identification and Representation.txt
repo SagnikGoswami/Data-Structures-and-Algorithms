@@ -1,0 +1,7 @@
+1) Normal stack ke box jaisa represent kro, sorted order mei likho
+   As sorted order mei hi niklega.
+2) 2 key words se pehchan heap ka sawal k+smallest(max heap)/
+   largest(min heap)
+3) Heap ke sawalo mei generally fell aayega ki sort krlo
+4) So O(nlogn) -> O(nlogk)
+5) Also agar feel aaye ki min/max jaldi nikal liya toh baat ban jaye
