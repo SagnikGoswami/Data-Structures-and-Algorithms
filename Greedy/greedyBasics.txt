@@ -1,0 +1,6 @@
+1) Greedy mei basically har situation ke liye optimal solution nikalte aise 
+   overall optimal ka noi sochte, ek rule decide krte at start aur ussi 
+   ko follow krte hue nikalte jaate har situation we reach.
+2) DP mei har situation mei jaake decision lete aur har possible solution try
+   krte hai to get to the best solution.
+3) Maybe ek acche test case pe socho kaise proceed kre then click.
