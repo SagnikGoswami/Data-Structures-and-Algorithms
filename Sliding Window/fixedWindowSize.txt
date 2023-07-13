@@ -1,0 +1,12 @@
+Agar Window size fixed(=k) rkhni hai to we can have the following general pattern
+
+while(endInd<n){
+    Do Calculations wrt end index
+    if(windowSize<k) endInd++
+    if(windowSize=k){
+        1)First calculate answer from the calculations done
+        2)Now slide the window
+            a)Before shift startInd, remove the calculation done wrt startInd
+            b)startInd++ and endInd++
+    }
+}

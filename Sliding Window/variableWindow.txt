@@ -1,0 +1,15 @@
+while(endInd<n){
+    do calculations wrt endInd
+    if(condition<k) endInd++
+    else if(condition=k){
+        update answer wrt calculations done
+        endInd++
+    }
+    else if(condition>k){
+        while(condition>k){
+            remove startInd walla calculation
+            startInd++
+        }
+        endInd++
+    }
+}
